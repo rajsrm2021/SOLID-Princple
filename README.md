@@ -12,11 +12,11 @@ SOLID is an acronym for five design principles intended to make software designs
 
 | Principle | Full Form |
 |----------|-----------|
-| **S**     | Single Responsibility Principle (SRP) |
-| **O**     | Open/Closed Principle (OCP) |
-| **L**     | Liskov Substitution Principle (LSP) |
-| **I**     | Interface Segregation Principle (ISP) |
-| **D**     | Dependency Inversion Principle (DIP) |
+| **S**     | Single Responsibility Principle (SOLID_Princples.SRP) |
+| **O**     | Open/Closed Principle (SOLID_Princples.OCP) |
+| **L**     | Liskov Substitution Principle (SOLID_Princples.LSP) |
+| **I**     | Interface Segregation Principle (SOLID_Princples.ISP) |
+| **D**     | Dependency Inversion Principle (SOLID_Princples.DIP) |
 
 ---
 
@@ -27,7 +27,7 @@ SOLID is an acronym for five design principles intended to make software designs
 
 ## 📘 Principle Summaries & Examples
 
-### ✅ 1. SRP — Single Responsibility Principle
+### ✅ 1. SOLID_Princples.SRP — Single Responsibility Principle
 > A class should have only one reason to change.
 
 🧾 **Example**: `InvoicePrinter`, `InvoiceCalculator`, and `Invoice` are separated based on their responsibilities.
@@ -36,7 +36,7 @@ SOLID is an acronym for five design principles intended to make software designs
 
 ---
 
-### ✅ 2. OCP — Open/Closed Principle
+### ✅ 2. SOLID_Princples.OCP — Open/Closed Principle
 > Software entities should be open for extension but closed for modification.
 
 🧾 **Example**: Payment processing system using interfaces for payment methods like `CreditCardPayment`, `UPIPayment`, etc.
@@ -45,7 +45,7 @@ SOLID is an acronym for five design principles intended to make software designs
 
 ---
 
-### ✅ 3. LSP — Liskov Substitution Principle
+### ✅ 3. SOLID_Princples.LSP — Liskov Substitution Principle
 > Subtypes must be substitutable for their base types without altering the correctness.
 
 🧾 **Example 1**: `Bird` interface, separating `FlyingBird` from non-flying like `Penguin`.
@@ -56,7 +56,7 @@ SOLID is an acronym for five design principles intended to make software designs
 
 ---
 
-### ✅ 4. ISP — Interface Segregation Principle
+### ✅ 4. SOLID_Princples.ISP — Interface Segregation Principle
 > Clients should not be forced to depend on interfaces they do not use.
 
 🧾 **Example**: Different interfaces for printer capabilities like `Scanner`, `Printer`, `Fax`.
@@ -65,7 +65,7 @@ SOLID is an acronym for five design principles intended to make software designs
 
 ---
 
-### ✅ 5. DIP — Dependency Inversion Principle
+### ✅ 5. SOLID_Princples.DIP — Dependency Inversion Principle
 > High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 🧾 **Example**: `NotificationService` depends on `MessageSender` interface, not concrete classes like `EmailSender` or `SMSSender`.
